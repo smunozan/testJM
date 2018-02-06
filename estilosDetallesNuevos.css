@@ -1,0 +1,118 @@
+/*Fondo*/
+
+body {
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	font-family: 'Roboto', san francisco, helvetica neue, arial;
+}
+
+.fondo{
+	height: fit-content;
+	background-color: #F8F6F8;
+}
+
+/*titulo de la pantalla*/
+
+.titulo {
+	position:sticky;
+	background-color: white;
+	height: 10%;
+	top:0;
+	right:0;
+	left:0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5%;
+}
+
+.titulo i{
+	font-size: 95px;
+	color:#F223C6;
+}
+
+.titulo p{
+	font-size: 50px;
+	color:#F223C6;
+	font-weight: 900;
+}
+
+/*mapa*/
+.mapa {
+	background-image: url("mapaColonia.jpg");
+	background-repeat: no-repeat;
+	background-size: 145%;
+    background-position: -140px -128px;
+	width: 100%;
+	height: 710px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mapa img{
+	width: 8%;
+}
+
+
+/*Servicio*/
+.servicios{
+	width: 84%;
+	padding: 0 8% 0 8%;
+}
+	
+/*-------tarjeta de servicio*/
+.tarjeta{
+	margin: 30px 0;
+}
+
+.tarjetaServicio{
+	width: 100%;
+	padding: 5% 0;	
+}
+
+.apartadoTarjeta{
+	margin: 50px 0 0 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.infoTarjeta{
+	width: 45%;
+}
+
+.tituloTarjeta{
+	font-size: 40px;
+	color: gray;
+	margin: 0 0;
+}
+
+.contenidoTarjeta{
+	font-size: 70px;
+	font-weight: 900;
+	margin: 0 0;
+}
+
+.tipo{
+	color: #9032C8;
+	background-color: #F1EFF2;
+	width: 45%;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.botonTarjeta button{
+	width: 100%;
+    font-size: 40px;
+    color: white;
+    background-color: #2EB771;
+    border: none;
+    padding: 7% 0;
+    
+}
