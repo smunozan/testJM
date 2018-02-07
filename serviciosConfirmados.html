@@ -18,7 +18,7 @@
 			<p>Fecha: 31 de febrero (hoy).</p>
 			<i class="material-icons">expand_more</i>
 		</div>
-		<div class="servicios">
+		<div class="servicios" id="servicioDinamico">
 
 			<div class="tarjeta">
 				<div class="tarjetaServicio">
@@ -50,6 +50,7 @@
 					<button onclick="window.location.href='detallesConfirmado.html'">Ver detalles</button>
 				</div>
 			</div>
+
 			<div class="tarjeta">
 				<div class="tarjetaServicio">
 					<div class="direccion">
@@ -112,11 +113,14 @@
 			</div>
 
 		</div>
-		<div id="prueba"></div>
 	</div>
+	
+	<!-- importar JSON -->
+	<script type="text/javascript" src="my_services.json"></script>
 
+	<!-- Conectar con infoConfirmados.js -->
 	<script src="infoConfirmados.js"></script>
-
+	
 </body>
 </html>	
 
